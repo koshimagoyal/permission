@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                     public void onLocationChanged(Location l) {
                         double lat, lon;
-                        String s1 = "8178923714";
+                        String s1 = "XXXXXXXXXX"; //phone no
                         String s2 = "Help me";
                         SmsManager smsManager = SmsManager.getDefault();
                         final StringBuffer smsBody = new StringBuffer();
